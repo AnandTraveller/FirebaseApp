@@ -38,4 +38,16 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="27dp"
         android:text="cold" />
+
+    <Button
+        android:id="@+id/btnPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="27dp"
+        android:text="Gallery" />
+
+
 </LinearLayout>
