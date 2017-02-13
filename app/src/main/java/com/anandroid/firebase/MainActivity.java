@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
         clickListenner();
 
-
     }
 
     private void clickListenner() {
@@ -88,12 +87,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && resultCode == RESULT_OK) {
+
             Uri selectedImageUri = data.getData();
             StorageReference pathFile = storeRef.child("Photos").child(selectedImageUri.getLastPathSegment());
             pathFile.putFile(selectedImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-
                     Toast.makeText(MainActivity.this, "DONE", Toast.LENGTH_SHORT).show();
                 }
             });

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FirebaseApp</string>
+
+    <!--Home Screen-->
+    <string name="shopping">Shopping</string>
+    <string name="grocery">Grocery</string>
+    <string name="utility">Utility</string>
+
+    <!--Home Screen-->
+    <string name="analytics">Analytics</string>
+    <string name="realdb">RealTime Database</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
 </resources>

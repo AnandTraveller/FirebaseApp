@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.anandroid.firebase.Analytics">
+
+
+    <Button
+        android:id="@+id/btnShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping" />
+
+    <Button
+        android:id="@+id/btnGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grocery" />
+
+    <Button
+        android:id="@+id/btnUtility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/utility" />
+
+</LinearLayout>
